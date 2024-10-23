@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="https://via.placeholder.com/150" alt="Company Logo">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#video">Video</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Discover Our Latest Products</h1>
+        <p>Innovative and reliable products for everyday use.</p>
+        <a href="#pricing" class="cta-button">Shop Now</a>
+    </section>
+
+    <section id="features" class="container">
+        <h2>Features</h2>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/100" alt="Feature 1">
+            <h3>High Quality</h3>
+            <p>Top-notch materials and craftsmanship.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/100" alt="Feature 2">
+            <h3>Affordable Prices</h3>
+            <p>Get the best value for your money.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/100" alt="Feature 3">
+            <h3>Fast Shipping</h3>
+            <p>Quick and reliable delivery.</p>
+        </div>
+    </section>
+
+    <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+
+    <section id="pricing" class="container">
+        <h2>Pricing</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>$199 - Essential features.</p>
+        </div>
+        <div class="pricing-plan">
+            <h3>Premium Plan</h3>
+            <p>$299 - Advanced features.</p>
+        </div>
+        <div class="pricing-plan">
+            <h3>Deluxe Plan</h3>
+            <p>$399 - All-inclusive features.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
